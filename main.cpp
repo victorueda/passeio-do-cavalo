@@ -17,7 +17,7 @@ bool valido(int x, int y, int N, vector<vector<int>>& tab) {
     return (x >= 0 && y >= 0 && x < N && y < N && tab[x][y] == -1);
 }
 
-// Conta o grau (Warnsdorff)
+// Conta o grau (Warnsdorff) 
 int grau(int x, int y, int N, vector<vector<int>>& tab) {
     avaliacoes++; // chamou heurística
 
